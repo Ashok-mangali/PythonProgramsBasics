@@ -1,0 +1,62 @@
+How to define table in HTML:
+--------------------------------------------
+
+<table>
+	<tr>
+		<th></th>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>
+
+How to link css file:
+--------------------------------------------
+
+<link rel='stylesheet' type='text/css' href='file_name.css' />
+
+How To Create Login Page Using Html?
+----------------------------------------------
+
+<div class="bg-container">
+        <div class="Container">
+            <label>Name:</label>
+            <input type="text">
+
+        </div>
+        <div class="Container">
+            <label>Date:</label>
+            <input type="date">
+        </div>
+        <div class="Container">
+            <label>Sex:</label>
+
+            <input type="radio" name="male" value="Male">Male
+            <input type="radio" name="male" value="Female">Female
+        </div>
+        <div class="Container">
+
+            Time: <input type="time">
+        </div>
+        <div class="Container">
+            <label>Month:</label>
+            <input type="month">
+        </div>
+        <div class="Container">
+            <label>Email:</label>
+            <input type="email" placeholder="e-mail">
+        </div>
+        <div class="Container">
+            <label>Password:</label>
+            <input type="password" placeholder="password">
+        </div>
+        <div class="Container">
+            <input type="file">
+        </div>
+        <div class="Container">
+            <button class="btn" id="ButtonEl" onclick="MyButton()" value="submit">Submit</button>
+
+        </div>
+
+    </div>
+    ------------------------------------------------------
